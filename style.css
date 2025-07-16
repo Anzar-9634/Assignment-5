@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f7f8fc;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: white;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li {
+  cursor: pointer;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 30px;
+  padding: 40px;
+}
+
+.main-feature {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-feature img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.main-feature .content {
+  margin-top: 20px;
+}
+
+.main-feature h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.main-feature button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.sidebar {
+  background-color: #00001a;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.sidebar h2 {
+  color: orange;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 20px;
+  border-bottom: 1px solid gray;
+}
+
+.articles {
+  grid-column: span 2;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.card {
+  width: 30%;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.card h3 {
+  color: #e63946;
+  margin: 10px 0 5px;
+}
